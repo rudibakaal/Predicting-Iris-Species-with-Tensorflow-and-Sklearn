@@ -2,7 +2,7 @@
 # Predicting-Iris-Species-with-Tensorflow-and-Sklearn
 
 ## Motivation
-Multi-label classification task on the famous Iris Dataset.
+Machine learning multi-label classification task on the famous Iris Dataset.
 
 The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other[1].
 
