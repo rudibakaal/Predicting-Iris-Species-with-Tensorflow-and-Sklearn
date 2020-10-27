@@ -9,8 +9,6 @@ import matplotlib.style as style
 from keras.utils import to_categorical
 
 
-all_cols = ['sepal_length','sepal_width','petal_length','petal_width','species']
-
 ds = pd.read_csv('iris_ds.csv')
 ds = ds.reindex(np.random.permutation(ds.index))
 train = ds
@@ -56,5 +54,3 @@ plt.title('Categorical Crossentropy',fontsize=14, fontweight='bold')
 plt.xlabel('Epochs',fontsize=13)
 plt.ylabel('Metrics',fontsize=13)
 plt.show()
- 
-
